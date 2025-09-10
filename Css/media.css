@@ -1,0 +1,46 @@
+ @media (max-width: 900px) {
+.nav-links {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background: #f8f9fa;
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+    display: none;
+    box-shadow: 0 4px 16px rgba(23,47,74,0.1);
+    border-radius: 0 0 8px 8px;
+    z-index: 99;
+    padding: 0 20px;
+    
+}
+
+.nav-links li:first-child {
+    border-top: 1px solid #ddd;
+}
+
+.nav-links li:last-child {
+    border-bottom: none;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.nav-links li a {
+    display: block;
+    padding: 1rem 2rem;
+}
+
+.burger {
+    display: flex;
+}
+
+nav.active .nav-links {
+    display: flex;
+}
+
+
+.top-header-contact {
+    display: none;
+}
+}
+
