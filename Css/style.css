@@ -482,6 +482,31 @@ nav {
     
 }
 
+@media (max-width: 400px) {
+    
+   .services-section  .card-item h3{
+        font-size: 1rem;
+        right: 30%;
+        top: 8%;
+    }
+   .services-section  .card-item p{
+        font-size: 0.8rem;
+        top: 5px;
+        right: 3%;
+    }
+    .services-section .card-item ul li{
+        font-size: 0.8rem;
+    }
+    .services-section .card-item a{
+        font-size: 0.9rem;
+        padding: 8px 10px;
+    }
+    .services-section .cards-container{
+      
+        margin-right: 10px;
+    }
+}
+
 /********************* Start Section *********************/
 
 .start-section{
@@ -1115,7 +1140,36 @@ footer .footer-content .footer-logo img {
     }
 } 
 
+@media (max-width: 400px) {
+       
+.footer-links { 
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    
+}
 
+.footer-links ul { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-links li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all 0.3s;
+    text-align: center;
+    margin-right: 20px;
+}
+
+}
 
 /***************************************/
 
